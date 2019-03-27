@@ -1,6 +1,6 @@
 package project;
 import java.sql.Connection;
-
+import project.MemberVO;
 import project.MemberDAO;
 
 
