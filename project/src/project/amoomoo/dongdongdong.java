@@ -2,11 +2,11 @@ package project.amoomoo;
 
 public class dongdongdong {
 	public int mamamam() {
-		int aa = 50;
+		int aaa = 50;
 		
-		System.out.println(aa);
+		System.out.println(aaa);
 		
-		return aa;
+		return aaa;
 		
 	}
 }
