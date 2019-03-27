@@ -1,14 +1,14 @@
 package project;
+import java.sql.Connection;
+
+import project.MemberDAO;
+
 
 public class Index {
-	public static void main(String[] args) {
-		System.out.println("HTML");
-		System.out.println("CSS");
-		System.out.println("JAVASCRIPT");
-		System.out.println("JQUERY");
+		Connection con=null;
 		
-		System.out.println("JSP");
-		System.out.println("SERVLET");
-		System.out.println("JDBC");
-	}
+		MemberVO vo=new MemberVO();
+		MemberDAO dao=new MemberDAO(con);
+		
+		
 }
